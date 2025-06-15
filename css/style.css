@@ -41,7 +41,8 @@
     flex-direction: column;
 
     border: 2px solid black;
-    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    border-radius: 20px;
 
     padding: 10px;
     height: 125px;
@@ -62,7 +63,8 @@
     flex-direction: column;
 
     border: 2px solid black;
-    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    border-radius: 20px;
 
 
     padding: 10px;
@@ -71,7 +73,7 @@
 
 .experiencia .empresa:hover,
  .curso:hover, .project:hover{
-     scale: 1.02;
+    scale: 1.02;
     transition: ease-out 0.1s;
     box-shadow: 3px 3px 10px
     rgba(37, 51, 62, 0.522);
