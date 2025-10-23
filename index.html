@@ -3,35 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo - Baruque Rodrigues</title>
+  <title>Currículo | Baruque Rodrigues da Silva</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <section class="container">
-    <header class="titulo-nome mt-5 text-center">
-      <h1>Baruque Rodrigues da Silva</h1>
-      <h5 class="objetivos">T.I</h5>
-      <hr>
-    </header>
 
-    <section class="row">
-      <div class="dados-pessoais col">
-        <p><strong>Telefone:</strong> (19) 98364-0257</p>
-        <p><strong>Estado Civil:</strong> Solteiro</p>
-        <p><strong>CNH:</strong> Tirando A/B</p>
-      </div>
+  <!-- Cabeçalho -->
+  <header class="bg-dark text-light text-center py-5">
+    <h1 class="fw-bold">Baruque Rodrigues da Silva</h1>
+    <p class="lead">Técnico em Informática | Cybersecurity</p>
+    <div class="mt-3">
+      <a href="mailto:baruquers90@gmail.com" class="text-light mx-2"><i class="bi bi-envelope"></i> baruquers90@gmail.com</a> |
+      <a href="https://ghostzinm.github.io" target="_blank" class="text-light mx-2"><i class="bi bi-github"></i> GitHub</a> |
+      <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="text-light mx-2"><i class="bi bi-linkedin"></i> LinkedIn</a>
+    </div>
+  </header>
 
-      <div class="dados-contatos col">
-        <div class="p-2 contato-box">
-          <p><strong>Email:</strong> baruquers90@gmail.com</p>
-          <p><strong>GitHub:</strong> 
-            <a href="https://ghostzinm.github.io" target="_blank">ghostzinm.github.io</a>
-          </p>
-          <p><strong>LinkedIn:</strong> 
-            <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a>
-          </p>
+  <!-- Conteúdo Principal -->
+  <main class="container my-5">
+
+    <!-- Dados Pessoais -->
+    <section class="mb-4">
+      <h2 class="section-title">Dados Pessoais</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Telefone:</strong> (19) 98364-0257</p>
+          <p><strong>Estado Civil:</strong> Solteiro</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>CNH:</strong> Tirando A/B</p>
         </div>
       </div>
     </section>
+
+    <!-- Formação -->
+    <section class="mb-4">
+      <h2 class="section-title">Formação</h2>
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">E.E Lenya Apparecida Pagotto Boer</h5>
+              <p class="card-text">Ensino Médio • Conclusão: 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Senac Americana</h5>
+              <p class="card-text">Técnico em Informática • Conclusão: 2026</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card custom-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Inexus Americana</h5>
+              <p class="card-text">Informática Básica • Conclusão: 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="mb-4">
+      <h2 class="section-title">Experiência Profissional</h2>
+      <div class="row gy-3">
+        <div class="col-md-6">
+          <div class="card custom-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Pastel e Cia</h5>
+              <p><strong>Cargo:</strong> Atendente / Garçom</p>
+              <p><strong>Período:</strong> 6 meses</p>
+              <p>Atuei na linha de frente da experiência gastronômica, atendendo e servindo clientes em ambiente dinâmico.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card custom-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Tagelatto</h5>
+              <p><strong>Cargo:</strong> Ajudante de Faxineiro</p>
+              <p><strong>Período:</strong> 5 meses</p>
+              <p>Auxílio na limpeza e organização do ambiente da sorveteria, mantendo a higiene e eficiência do espaço.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cursos -->
+    <section class="mb-4">
+      <h2 class="section-title">Cursos Complementares</h2>
+      <ul class="list-group list-group-flush shadow-sm">
+        <li class="list-group-item">Pacote Office</li>
+        <li class="list-group-item">Informática Básica</li>
+        <li class="list-group-item">Windows 10</li>
+        <li class="list-group-item">Hardware</li>
+        <li class="list-group-item">Lógica de Programação</li>
+      </ul>
+    </section>
+
+  <footer class="text-center py-4 bg-dark text-light mt-5">
+    <p class="mb-0">&copy; 2025 Baruque Rodrigues da Silva — Todos os direitos reservados</p>
+  </footer>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
