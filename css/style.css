@@ -1,82 +1,47 @@
-
-.titulo-nome>h1{
-    font-size: 3rem;
-    font-weight: 400;
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.titulo-nome>h5 {
-    font-size: 1.5rem;
-    font-weight: 300;
+h3 {
+  text-transform: capitalize;
+  color: #343a40;
+  margin-top: 20px;
 }
 
-
-.dados-contatos>div, .dados-pessoais {
-    display: flex;
-    flex-direction: column;
+.contato-box {
+  width: 80%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
-.dados-contatos>label, .dados-pessoais>label{
-    margin-top: 5px;
+.cartao,
+.empresa,
+.curso,
+.project {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.5);
+  padding: 15px;
+  transition: all 0.2s ease;
 }
 
-.dados-contatos strong, .dados-pessoais strong{
-    text-transform: capitalize;
+.cartao:hover,
+.empresa:hover,
+.curso:hover,
+.project:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.dados-contatos>div{
-    width: 50%;
-    margin: 0 auto;
-
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-.formacao>h3{
-    border-bottom: 2px solid #cbd0d4;
-}
-
-.formacao .cartao{
-    display: flex;
-    flex-direction: column;
-
-    border: 2px solid black;
-    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
-    border-radius: 20px;
-
-    padding: 10px;
-    height: 125px;
-    transition: ease-out 0.1s;
-}
-
-.formacao .cartao:hover{
-    scale: 1.02;
-    transform: translateY(-5px);
-    transition: ease-out 0.1s;
-    box-shadow: 3px 3px 10px
-    rgba(37, 51, 62, 0.522);
-}
-
-
-.experiencia .empresa, 
-.curso, .project{
-    display: flex;
-    flex-direction: column;
-
-    border: 2px solid black;
-    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
-    border-radius: 20px;
-
-
-    padding: 10px;
-    transition: ease-out 0.1s;
-}
-
-.experiencia .empresa:hover,
- .curso:hover, .project:hover{
-    scale: 1.02;
-    transform: translateY(-5px);
-    transition: ease-out 0.1s;
-    box-shadow: 3px 3px 10px
-    rgba(37, 51, 62, 0.522);
+a:hover {
+  text-decoration: underline;
 }
